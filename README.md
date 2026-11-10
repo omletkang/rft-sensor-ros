@@ -2,7 +2,9 @@
 
 **Alchemist Project (2023–2025)** · Soft Robotics and Bionics Lab (SRBL), Seoul National University
 
-C++ / ROS1 code for reading an **RFT 6-axis force/torque sensor (load cell)** over UART, and for logging it together with our 3-axis tactile sensor.
+C++ / ROS1 code for reading a **Robotous RFT60-HA01 6-axis force/torque sensor (load cell)**, and for logging it together with our 3-axis tactile sensor.
+
+**Sensor:** [Robotous RFT60-HA01](https://www.robotous.com/), a hollow-core 6-axis F/T sensor with a 60 mm housing. This repo uses the **USB interface**, which works as a serial (UART) port and shows up as `/dev/ttyUSB*`.
 
 The logged data was used as ground truth to calibrate the tactile sensor with an MLP. See [alche-act-feedback](https://github.com/omletkang/alche-act-feedback).
 
